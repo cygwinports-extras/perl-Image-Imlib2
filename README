@@ -3,18 +3,18 @@ perl-Image-Imlib2
 Perl bindings for the Imlib2 graphics library.
 
 Runtime requirements:
-  cygwin-1.5.19-4
+  cygwin-1.5.20-1
   imlib2-1.2.2-1
   perl-5.8.7-5
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.19-4
+  cygwin-1.5.20-1
   binutils-20050610-1
   gcc-core-3.4.4-1
   make-3.80-1
   perl-5.8.7-5
-  perl-Module-Build-0.26-2
+  perl-Module-Build-0.28-1
 
 Canonical homepage:
   http://search.cpan.org/~lbrocard/Image-Imlib2/
@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Image-Imlib2-1.08-1-src.tar.bz2
+  unpack perl-Image-Imlib2-1.09-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Image-Imlib2-1.08-1.cygport all
+  cygport ./perl-Image-Imlib2-1.09-1.cygport all
 
 This will create:
-  /usr/src/perl-Image-Imlib2-1.08-1-src.tar.bz2
-  /usr/src/perl-Image-Imlib2-1.08-1.tar.bz2
+  /usr/src/perl-Image-Imlib2-1.09-1-src.tar.bz2
+  /usr/src/perl-Image-Imlib2-1.09-1.tar.bz2
 
 -------------------------------------------
 
@@ -43,14 +43,17 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Image/Imlib2/Imlib2.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Image/Imlib2/Imlib2.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Image/Imlib2/libImlib2.dll.a
-  /usr/share/doc/Cygwin/perl-Image-Imlib2-1.08.README
-  /usr/share/doc/perl-Image-Imlib2-1.08/Changes
-  /usr/share/doc/perl-Image-Imlib2-1.08/README
+  /usr/share/doc/Cygwin/perl-Image-Imlib2-1.09.README
+  /usr/share/doc/perl-Image-Imlib2-1.09/Changes
+  /usr/share/doc/perl-Image-Imlib2-1.09/README
   /usr/share/man/man3/Image.Imlib2.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 1.09-1 -----
+Version bump.
 
 ----- version 1.08-1 -----
 Version bump.
