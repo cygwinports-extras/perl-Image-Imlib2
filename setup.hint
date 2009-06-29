@@ -1,4 +1,4 @@
 category: Perl Graphics
-requires: cygwin crypt perl imlib2
+requires: crypt perl imlib2
 sdesc: "Perl bindings for the Imlib2 graphics library"
 ldesc: "Perl bindings for the Imlib2 graphics library"
